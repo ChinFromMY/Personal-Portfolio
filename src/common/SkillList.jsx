@@ -1,11 +1,11 @@
-import styles from './SkillsStyles.module.css';
-import SkillList from '../../common/SkillList';
 
-function Skills({src, skill}){
+function SkillList({src, skill}){
     return(
         <span>
+            <img src={src} alt="logo icon"/>
             <p>{skill}</p>
-        
         </span>
     )
 }
+
+export default SkillList;

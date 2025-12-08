@@ -67,5 +67,20 @@ p{
     cursor: pointer;
 }
 
+/* make it responsive */
+@media(width >= 800px){
+    #root{
+        gap: 1px;
+    }
+    h1{
+        font-size: 48px;
+
+    .sectionTitle{
+        margin-bottom: 75px;
+    }
+
+    }
+}
+
 
 
