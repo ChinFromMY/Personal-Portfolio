@@ -37,6 +37,7 @@ function Hero(){
                 <p className={styles.description}>Welcome to my portfolio website, nice to meet you!
                     I'm a Year 3 Computational Science student from UNIMAS. 
                     Let's dive into my project!
+                    Press "Resume" to download my resume!
                 </p>
                 <a href={Resume} download> 
                     <button className="hover">Resume</button>

@@ -33,22 +33,26 @@ function Skills(){
                 <SkillList src={r} skill="R"/>
                 <SkillList src={c1} skill="C"/>
             </div>
-            <hr/>
+            <br/>
+            <br/>
             <div className={styles.skillList}>
                 <SkillList src={html} skill="HTML5"/>
                 <SkillList src={css} skill="CSS"/>
             </div>
-            <hr/>
+            <br/>
+            <br/>
             <div className={styles.skillList}>
                 <SkillList src={mysql} skill="MySQL"/>
                 <SkillList src={supabase} skill="Supabase"/>
             </div>
-            <hr/>
+            <br/>
+            <br/>
             <div className={styles.skillList}>
                 <SkillList src={react} skill="React"/>
                 <SkillList src={nodejs} skill="Node.js"/> 
             </div>
-            <hr/>
+            <br/>
+            <br/>
             <div className={styles.skillList}>
                 <SkillList src={git} skill="Git"/>
                 <SkillList src={github} skill="GitHub"/>
