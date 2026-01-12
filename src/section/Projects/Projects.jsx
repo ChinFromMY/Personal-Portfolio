@@ -14,14 +14,13 @@ function Projects(){
             <h1 className="sectionTitle">Projects</h1>
             <div className={styles.projectsContainer}>
                 <ProjectCard src={ML} 
-                link="https://github.com/ChinFromMY/Flood-Prediction-Machine-Learning-Model.git"
-                h3="Bangladesh Flood Predictor"
+                link="https://github.com/ChinFromMY/flood-prediction-ml-system.git"
+                h3="Flood Prediction Machine Learning System"
                 p="Flood Prediction Machine Learning Model"
                 />
                 <ProjectCard src={ChatBot} 
-                //remember to add the link   
-                link="https://github.com/ChinFromMY/Flood-Prediction-Machine-Learning-Model.git"
-                h3="AI ChatBot"
+                link="https://github.com/ChinFromMY/React-AI-Chatbot.git"
+                h3="React AI ChatBot"
                 p="AI ChatBot powered by Hugging Face"
                 />
                 <ProjectCard src={DeepFake} 
