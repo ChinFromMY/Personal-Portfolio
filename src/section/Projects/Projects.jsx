@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './ProjectsStyles.module.css'
 import ML from '../../assets/logo1.png'
 import ChatBot from '../../assets/logo2.png'
@@ -15,8 +14,9 @@ function Projects(){
             <div className={styles.projectsContainer}>
                 <ProjectCard src={ML} 
                 link="https://github.com/ChinFromMY/flood-prediction-ml-system.git"
+                demo="https://flood-frontend-app.onrender.com"
                 h3="Flood Prediction Machine Learning System"
-                p="Flood Prediction Machine Learning Model"
+                p="ML-powered flood risk prediction web app"
                 />
                 <ProjectCard src={ChatBot} 
                 link="https://github.com/ChinFromMY/React-AI-Chatbot.git"

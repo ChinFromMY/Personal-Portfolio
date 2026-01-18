@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import Resume from '../../assets/ChinXuan_Resume.pdf';
+import Resume from '../../assets/Resume_ChinXuan.pdf';
 import {useTheme} from '../../common/ThemeContext';
 
 
